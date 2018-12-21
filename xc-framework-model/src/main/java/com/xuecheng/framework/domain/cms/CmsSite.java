@@ -36,4 +36,61 @@ public class CmsSite {
     //创建时间
     private Date siteCreateTime;
 
+    private String sitePhysicalPath;
+
+    public String getSiteId() {
+        return siteId;
+    }
+
+    public void setSiteId(String siteId) {
+        this.siteId = siteId;
+    }
+
+    public String getSiteName() {
+        return siteName;
+    }
+
+    public void setSiteName(String siteName) {
+        this.siteName = siteName;
+    }
+
+    public String getSiteDomain() {
+        return siteDomain;
+    }
+
+    public void setSiteDomain(String siteDomain) {
+        this.siteDomain = siteDomain;
+    }
+
+    public String getSitePort() {
+        return sitePort;
+    }
+
+    public void setSitePort(String sitePort) {
+        this.sitePort = sitePort;
+    }
+
+    public String getSiteWebPath() {
+        return siteWebPath;
+    }
+
+    public void setSiteWebPath(String siteWebPath) {
+        this.siteWebPath = siteWebPath;
+    }
+
+    public Date getSiteCreateTime() {
+        return siteCreateTime;
+    }
+
+    public void setSiteCreateTime(Date siteCreateTime) {
+        this.siteCreateTime = siteCreateTime;
+    }
+
+    public String getSitePhysicalPath() {
+        return sitePhysicalPath;
+    }
+
+    public void setSitePhysicalPath(String sitePhysicalPath) {
+        this.sitePhysicalPath = sitePhysicalPath;
+    }
 }
